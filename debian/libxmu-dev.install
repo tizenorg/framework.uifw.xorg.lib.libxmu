@@ -1,0 +1,4 @@
+usr/lib/libXmu.a
+usr/lib/libXmu.so
+usr/lib/libXmu.la
+usr/lib/pkgconfig/xmu.pc
