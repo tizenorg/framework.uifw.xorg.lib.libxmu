@@ -1,8 +1,8 @@
 
-Name:       libXmu
+Name:       libxmu
 Summary:    X.Org X11 libXmu/libXmuu runtime libraries
 Version:    1.1.0
-Release:    0
+Release:    2.6
 Group:      System/Libraries
 License:    MIT
 URL:        http://www.x.org
