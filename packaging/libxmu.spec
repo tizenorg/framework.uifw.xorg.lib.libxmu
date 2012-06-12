@@ -3,7 +3,7 @@ Name:       libxmu
 Summary:    X.Org X11 libXmu/libXmuu runtime libraries
 Version:    1.1.0
 Release:    2.6
-Group:      System/Libraries
+Group:      Graphics/X Window System
 License:    MIT
 URL:        http://www.x.org
 Source0:    http://xorg.freedesktop.org/releases/individual/lib/%{name}-%{version}.tar.gz
@@ -37,7 +37,7 @@ standard.
 
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 
 %build
@@ -79,29 +79,7 @@ rm -rf %{buildroot}
 %doc README ChangeLog
 %doc %{_docdir}/libXmu/Xmu.xml
 %doc %{_docdir}/libXmu/xlogo.svg
-%{_includedir}/X11/Xmu/Atoms.h
-%{_includedir}/X11/Xmu/CharSet.h
-%{_includedir}/X11/Xmu/CloseHook.h
-%{_includedir}/X11/Xmu/Converters.h
-%{_includedir}/X11/Xmu/CurUtil.h
-%{_includedir}/X11/Xmu/CvtCache.h
-%{_includedir}/X11/Xmu/DisplayQue.h
-%{_includedir}/X11/Xmu/Drawing.h
-%{_includedir}/X11/Xmu/Editres.h
-%{_includedir}/X11/Xmu/EditresP.h
-%{_includedir}/X11/Xmu/Error.h
-%{_includedir}/X11/Xmu/ExtAgent.h
-%{_includedir}/X11/Xmu/Initer.h
-%{_includedir}/X11/Xmu/Lookup.h
-%{_includedir}/X11/Xmu/Misc.h
-%{_includedir}/X11/Xmu/StdCmap.h
-%{_includedir}/X11/Xmu/StdSel.h
-%{_includedir}/X11/Xmu/SysUtil.h
-%{_includedir}/X11/Xmu/WidgetNode.h
-%{_includedir}/X11/Xmu/WinUtil.h
-%{_includedir}/X11/Xmu/Xct.h
-%{_includedir}/X11/Xmu/Xmu.h
-%{_includedir}/X11/Xmu/WhitePoint.h
+%{_includedir}/X11/Xmu/*.h
 %{_libdir}/libXmu.so
 %{_libdir}/libXmuu.so
 %{_libdir}/pkgconfig/xmu.pc
