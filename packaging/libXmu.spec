@@ -2,7 +2,7 @@
 
 Summary: X.Org X11 libXmu/libXmuu runtime libraries
 Name: libXmu
-Version: 1.1.1
+Version: 1.1.2
 Release: 1
 License: MIT
 Group: System Environment/Libraries
@@ -59,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root,-)
 /usr/share/license/%{name}
-%doc COPYING README ChangeLog
+%doc COPYING README
 %{_libdir}/libXmu.so.6
 %{_libdir}/libXmu.so.6.2.0
 %{_libdir}/libXmuu.so.1

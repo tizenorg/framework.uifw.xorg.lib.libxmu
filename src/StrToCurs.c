@@ -347,3 +347,5 @@ XmuCvtStringToColorCursor(Display *dpy, XrmValuePtr args, Cardinal *num_args,
     new_done(Cursor, cursor);
 }
 
+
+
